@@ -58,15 +58,6 @@ integration.
 Because this app has no server-side data, a static/SPA export is also possible
 if you configure one; the default build still includes a small SSR entry.
 
-## Pushing to GitHub
-
-```bash
-git add .
-git commit -m "Local-only attendance tracker"
-git remote add origin https://github.com/<your-user>/<your-repo>.git
-git push -u origin main
-```
-
 ## Tech stack
 
 - TanStack Start, TanStack Router, TanStack Query
