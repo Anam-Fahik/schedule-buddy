@@ -1,0 +1,53 @@
+# Dependencies
+node_modules
+.pnp
+.pnp.*
+
+# Build output
+dist
+dist-ssr
+.output
+.vinxi
+.nitro
+.tanstack
+*.tsbuildinfo
+
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+# Environment / secrets
+.env
+.env.*
+.env.local
+.env.*.local
+!.env.example
+*.pem
+*.key
+
+# Hosting
+.wrangler
+.dev.vars
+.vercel
+.netlify
+
+# Editor and OS files
+.vscode/*
+!.vscode/extensions.json
+.idea
+.DS_Store
+Thumbs.db
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# Test / coverage
+coverage
+*.local
